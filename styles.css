@@ -1,0 +1,127 @@
+body {
+    font-family: 'Quicksand';
+    font-size: 22px;
+
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Quicksand' !important;
+    font-size: 45px !important;
+    font-weight: 700 !important;
+    color: #36413C !important;
+}
+
+h2 {
+    font-family: 'Quicksand' !important;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    color: #36413C;
+}
+
+h3 {
+    font-family: 'Quicksand' !important;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    color: #5E6E66 !important;
+}
+
+.sec1 h1,
+.sec1 h2,
+.sec1 h3,
+.sec1 p {
+    color: #fff !important;
+}
+
+p {
+    font-family: 'Quicksand' !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    color: #5E6E66 !important;
+}
+
+
+.card-img-overlay {
+    width: 50% !important;
+    position: relative !important;
+    top: 100px !important;
+    left: 100px !important;
+}
+
+section.sec1 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background: url(./assets/main-banner.png);
+    height: 500px;
+    background: url(./assets/main-banner.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+section.sec2 {
+    height: 500px;
+}
+
+#wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#wave path {
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 0.00) 0%, rgba(0, 0, 0, 0.5) 65%);
+}
+
+.btn {
+    font-family: 'Quicksand';
+}
+
+.btnprimary {
+    border-radius: 4px !important;
+    background-color: #DE6C17 !important;
+    height: 48px !important;
+
+    font-family: 'Quicksand' !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: #fff !important;
+
+    width: 150px;
+}
+
+a {
+    font-family: 'Quicksand' !important;
+    color: #DE6C17 !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 30px !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+
+    .card-img-overlay {
+        width: 90% !important;
+        position: absolute !important;
+        top: 0px !important;
+        left: 0px !important;
+    }
+}
